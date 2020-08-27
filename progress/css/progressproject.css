@@ -1,0 +1,343 @@
+@font-face {
+    src: url(../font/QuattrocentoSans-Italic.ttf);
+    font-family: quaranto;
+}
+
+@font-face {
+    src: url(../font/MarckScript-Regular.ttf);
+    font-family: markscript;
+}
+
+@font-face {
+    src: url(../font/Arvo-Bold.ttf);
+    font-family: arvo;
+}
+
+@font-face {
+    src: url(../font/Jost-VariableFont_ital\,wght.ttf);
+    font-family: jost;
+}
+
+@font-face {
+    src: url(../font/Rubik-LightItalic.ttf);
+    font-family: rubik;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(232, 232, 238);
+    font-family: markscript;
+    scroll-behavior: smooth;
+}
+
+.gambarlogo img {
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    float: left;
+}
+
+nav {
+    background-color: whitesmoke;
+    height: 7vw;
+}
+
+nav ul {
+    float: right;
+    height: 7vw;
+}
+
+nav ul:hover {
+    background-color: wheat;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a h1 {
+    color: rgb(19, 17, 17);
+    padding: 33px 20px;
+    font-family: arvo;
+    text-transform: capitalize;
+    font-size: 1.4vw;
+    font-style: italic;
+}
+
+nav ul li a h1:hover {
+    color: rgb(29, 53, 141);
+    transition: 0.5s;
+}
+
+.sec1 {
+    background: url(../img/Lightborn.jpg);
+    background-size: cover;
+    height: 50vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(24, 60, 92, 0.315);
+}
+
+.sec2 {
+    width: 80%;
+    height: 40vw;
+}
+
+.gambarharith {
+    float: left;
+    width: 40%;
+    padding: 15px;
+}
+
+.sec2 .gambarharith img {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+}
+
+.sec2 .content {
+    width: 40%;
+    float: right;
+    text-align: center;
+}
+
+.sec2 .content h1 {
+    font-size: 3vw;
+    padding: 15px;
+}
+
+.sec2 .content p {
+    font-size: 2vw;
+    padding: 15px;
+    font-family: rubik;
+}
+
+.sec3 .content h1,
+.sec4 .content h1 {
+    font-size: 3vw;
+    text-align: center;
+    padding: 25px 0px 15px 0px;
+    font-family: quaranto;
+    justify-content: center;
+}
+
+.sec3 .content p,
+.sec4 .content p {
+    font-size: 2vw;
+    font-family: jost;
+    font-style: italic;
+}
+
+.pagaratas {
+    margin-top: 100px;
+}
+
+.sec3 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(179, 179, 179);
+    padding: 200px 0px 200px 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sec3 .gambar img,
+.sec4 .gambar img {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: block;
+    margin: auto;
+}
+
+.sec3 .content .boxout {
+    width: 100%;
+    height: auto;
+}
+
+.sec3 .content .boxout .row {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-top: 2vh;
+}
+
+.sec3 .content .boxout .row .box {
+    display: block;
+    width: 60%;
+    height: 12vw;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(232, 232, 238);
+}
+
+.sec3 .content .boxout .row .box .box-inner .gambar img {
+    float: left;
+    width: 9vw;
+    height: 9vw;
+    padding: 20px 10px 10px 10px;
+}
+
+.sec3 .content .boxout .row .box .box-inner .isi {
+    padding: 10px;
+    float: right;
+    width: 60%;
+}
+
+.sec3 .content .boxout .row .box .box-inner .isi h1 {
+    font-size: 2vw;
+    padding: 0px 0px 15px 0px;
+}
+
+.sec3 .content .boxout .row .box .box-inner .isi p {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.sec4 {
+    padding: 100px 0px;
+    width: 90%;
+    height: auto;
+}
+
+.sec4 .content h3 {
+    color: red;
+    font-family: arvo;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.sec4 .content p {
+    width: 70%;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+.sec4 .content .boxout {
+    width: 100%;
+    height: auto;
+}
+
+.sec4 .content .boxout .row {
+    width: 80%;
+    height: auto;
+}
+
+.sec4 .content .boxout .row .box h1 {
+    font-family: markscript;
+}
+
+.sec4 .content .boxout .row .box {
+    width: 50%;
+    height: auto;
+    float: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2), 0 -4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgb(211, 211, 211);
+    margin-bottom: 10vw;
+}
+
+.sec4 .content .boxout .row .box .box-inner {
+    width: 90%;
+    border-radius: 10px;
+    height: 8vw;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.sec4 .content .boxout .row .box .box-inner .gambar {
+    width: 30%;
+    float: left;
+}
+
+.sec4 .content .boxout .row .box .box-inner .gambar img {
+    float: left;
+    width: 8vw;
+    height: 8vw;
+}
+
+.sec4 .content .boxout .row .box .box-inner .content p {
+    display: block;
+    line-height: 6vw;
+    padding: 10px 0px 10px 0px;
+    font-size: 2.5vw;
+    width: 100%;
+}
+
+.sec4 .content .boxout .row .box .box-inner .content .p p {
+    display: block;
+    line-height: 6vw;
+    padding: 10px 0px 10px 0px;
+    font-size: 2.5vw;
+    width: 100%;
+}
+
+.sec4 .content .boxout .row .box .box-inner .content img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.footer {
+    background-color: lightslategray;
+    width: 100%;
+    height: 18vw;
+    clear: both;
+}
+
+.footer .pembungkus {
+    padding: 20px;
+    height: auto;
+}
+
+.footer .logo img {
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    display: block;
+    margin: auto;
+}
+
+.logo-app {
+    display: flex;
+}
+
+.logo-app a {
+    color: whitesmoke;
+    font-size: 25px;
+    margin: 0px 30px;
+}
+
+.logo-app a :hover {
+    color: rgba(255, 245, 227, 0.726);
+    transition: 1s;
+}
+
+.nama-dev a {
+    display: flex;
+    margin: 20px 10px 0px 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nama-dev a:hover {
+    color: pink;
+    transition: 1s;
+}
